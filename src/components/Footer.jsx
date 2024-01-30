@@ -50,14 +50,18 @@ const Footer = () => {
             <h3>Follows Us</h3>
             <div className="footer-social--icons">
               <div>
+              <a href="#"  target="_blank">
                 <FaDiscord className="icons" />
+                </a>
               </div>
               <div>
+                <a href="#"  target="_blank">
                 <FaInstagram className="icons" />
+                </a>
               </div>
               <div>
                 <a
-                  href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
+                  href="#"
                   target="_blank">
                   <FaYoutube className="icons" />
                 </a>
@@ -77,7 +81,7 @@ const Footer = () => {
           <hr />
           <div className="container grid grid-two-column">
             <p>
-              @{new Date().getFullYear()} ThapaTechnical. All Rights Reserved
+              @{new Date().getFullYear()}All Rights Reserved
             </p>
             <div>
               <p>PRIVACY POLICY</p>
